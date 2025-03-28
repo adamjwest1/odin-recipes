@@ -1,19 +1,59 @@
 
 *{
     text-align: center;
-    list-style: georgian;
-    list-style-position: inside;
-    border-top-left-radius: .5cm;
+    margin-bottom: 20px;
+    /* list-style: georgian; */
+    /* list-style-position: inside; */
+    
 }
-h1{
-    color: blue;
-    font-weight: 800;
+#header{
+    display: block auto;
+    border-top-left-radius: 20%;
+    height: auto;
+    width: 800px;
+}
+.name{
+    color: rgb(9, 9, 26);
+    font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h2{
-    color: darkblue;
+    color: rgb(9, 9, 26);
     font-weight: 400;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+.recipe-list{
+    display: block;
+    text-align: center;
+    background-color: bisque;
+    padding: 8px;
+    
+}
+.recipe.lasagna, .teramisu, .beef-stew{
+    text-align: left;
+    font-size: 36px;
+    font-weight: 900;
+    color: black;
+    display: block ;
+    /* text-align: center; */
+    padding: 48px;
+    /* background-color: rgb(255, 182, 156); */
+    margin: 25px;
+}
+.recipe.lasagna{
+    background-image: url(./images/lasagna.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.recipe.teramisu{
+    background-image: url(./images/teramisu.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.recipe.beef-stew{
+    background-image: url(./images/beef-stew.jpg);
+    background-position: center;
+    background-size: cover;
 }
